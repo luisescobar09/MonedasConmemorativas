@@ -3,7 +3,7 @@ class Conexion{
 	private $conect;
 
 	public function __construct(){
-		$connectionString = "pgsql:host=".DB_HOST.";port=".DB_PORT.";dbname=".DB_NAME.";";
+		$connectionString = "pgsql:host=".DB_HOST.";port=".DB_PORT.";dbname=".DB_NAME.";charset=".DB_CHARSET."";
 		try{
 			$this->conect = new PDO($connectionString, DB_USER, DB_PASSWORD);
 			$this->conect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

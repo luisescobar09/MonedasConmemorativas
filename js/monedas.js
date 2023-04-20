@@ -7,7 +7,7 @@ function getMonedas() {
     var datosMonedas;
     if (window.navigator.onLine) {
       var request = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
-      var ajaxUrl = BASE_URL1 + '/admin/pwa/getMonedas/';
+      var ajaxUrl = BASE_URL1 + '/admin/PWA/getMonedas/';
       request.open("GET", ajaxUrl, true);
       request.onload = function () {
         if (this.readyState == 4 && this.status == 200) {

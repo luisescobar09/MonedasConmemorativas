@@ -11,7 +11,7 @@
 	const DB_NAME = "postgres";
 	const DB_USER = "postgres";
 	const DB_PASSWORD = "26Ti9228twc8!d3";
-	const DB_CHARSET = "charset=utf8";
+	const DB_CHARSET = "utf8";
 
 	//Delimitadores decimal y millar Ej: 24,999.99
 	const SPD = ".";

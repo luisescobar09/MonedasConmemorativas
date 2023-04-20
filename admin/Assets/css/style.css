@@ -1,0 +1,92 @@
+.app-sidebar__user-avatar {
+    width: 40px;
+    padding: 6px;
+}
+/*.app-sidebar__toggle {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+}*/
+/*.app-sidebar__toggle::before {
+    display: none;
+}*/
+
+.headerRegister, .header-primary {
+    background-color: #009688;
+    color: #fff;
+}
+.headerUpdate {
+    background-color: #007bff;
+    color: #fff;
+}
+.notBlock {
+    display: none;
+}
+#divLoading {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(254, 254, 255, 0.65);
+    z-index: 1;
+    display: none;
+}   
+#divLoading img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Upload Image */
+#containerImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#containerImages > div {
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+.prevImage {
+    width: 300px;
+    height: 150px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prevImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.inputUploadFile {
+    display: none;
+}
+.btnUploadFile, .btnDeleteImage {
+    border: 0;
+    background-color: #009688;
+    text-align: center;
+    padding: 2px 3px;
+    color: #fff;
+    font-size: 9pt;
+    cursor: pointer;
+    width: 100%;
+
+}
+.btnDeleteImage {
+    background-color: #dc3545;
+}
+.prevImage .loading {
+    width: 30px;
+    height: 30px;
+}
+

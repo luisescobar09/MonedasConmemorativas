@@ -7,7 +7,7 @@
     <div class="app-title">
         <div>
             <h1><i class="fa-solid fa-coins"></i> <?= $data['page_title']; ?>
-                <button class="btn btn-primary" onclick="openModal()" type="button"><i class="fas fa-plus-circle"></i> Nuevo</button>
+                <button class="btn btn-primary" onclick="openModal()" type="button" disabled="true"><i class="fas fa-plus-circle"></i> Nuevo</button>
             </h1>
         </div>
         <ul class="app-breadcrumb breadcrumb">

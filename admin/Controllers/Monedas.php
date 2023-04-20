@@ -52,7 +52,7 @@
 
 		public function setMoneda() {
 			
-			if($_POST) { 
+			/*if($_POST) { 
 				$id_moneda = $_POST['idMoneda'];
 				$txtNombre = $_POST['txtNombre'];
 				$listDenominacionid = $_POST['listDenominacionid'];
@@ -166,6 +166,10 @@
 			
 			//$a_id = uniqid();
 			//$arrresponse = array('status' => true, 'imgname' => 'img_'.$a_id.'.jpg');
+			echo json_encode($arrresponse, JSON_UNESCAPED_UNICODE);
+			die();
+			*/
+			$arrresponse = array('status' => true, 'data' => $_POST);
 			echo json_encode($arrresponse, JSON_UNESCAPED_UNICODE);
 			die();
 		}
